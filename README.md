@@ -1,6 +1,6 @@
 # simpleUploader
 The simple image uploader
-<img src="https://raw.githubusercontent.com/ngaduc/simpleUploader/main/screenshot.png">
+<img src="https://raw.githubusercontent.com/ngaduc/simpleUploader/main/scr.gif">
 
 ## How to use
 
