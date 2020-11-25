@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>simpleUploader</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>simpleUploader</h1>
+        <p>The simple image uploader</p>
+
+        <!-- MAIN -->
+        <div class="kuri_simpleuploader">
+            <div class="kuri_main_uploader" onclick="$('#kuri_filePhoto').click()">
+                <div class="kuri_inner_uploader">
+                    Drag and drop or click to select image uwu
+                    <img class="hidden" src="" />
+                    <input accept="image/*" type="file" name="thumbs" id="kuri_filePhoto" />
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+
+        <footer>
+            Note: This project require jQuery
+            <span style="font-size: 12px;display: block;">&copy 2020 by <a href="https://fb.com/ngaduc.kuri" target="_blank">Nguyen Anh Duc</a> - tw: <a href="https://twitter.com/ngaduc_kuri" target="_blank">@ngaduc_kuri</a></span>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="simpleUploader.js"></script>
+</body>
+
+</html>

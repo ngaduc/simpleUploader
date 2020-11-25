@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i';
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Google Sans
+}
+
+.main {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px
+}
+
+.kuri_simpleuploader {
+    width: 90%;
+    margin: auto;
+}
+
+.kuri_main_uploader {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    background: #747474;
+    border: 2px dashed #e8e8e8;
+}
+
+.kuri_inner_uploader {
+    z-index: 0;
+    display: table-cell;
+    position: relative;
+    outline-offset: -3px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+#kuri_filePhoto {
+    position: absolute;
+    width: 100%;
+    height: 310px;
+    top: -5px;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.kuri_main_uploader img {
+    position: absolute;
+    height: 300px;
+    width: 17%;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    border: none;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.kuri_simpleuploader .hidden {
+    display: none;
+}
