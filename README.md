@@ -13,4 +13,4 @@ Remember include jQuery, simpleUploader.js and main.css
 
 ## Credits
 <img src="https://i.imgur.com/kNutZpI.png" width="100px">
-by Nguyen Anh Duc _ kuri :))
+by <a href="https://fb.com/ngaduc.kuri" target="_blank">Nguyen Anh Duc</a> _ kuri :))
