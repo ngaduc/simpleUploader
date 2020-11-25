@@ -2,6 +2,7 @@
 The simple image uploader
 <img src="https://raw.githubusercontent.com/ngaduc/simpleUploader/main/scr.gif">
 
+Try now: <a href="https://ngaduc.github.io/simpleUploader/">simpleUploader</a>
 ## How to use
 
 Copy MAIN code in index file to your project
